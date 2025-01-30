@@ -18,7 +18,7 @@
                 if (degrees < 0) degrees += 360;
 
                 ResultLabel.Text = $"Goniometric form:\n" +
-                                   $"z = {abs:F2} (cos {degrees:F2}° + j sin {degrees:F2}°)";
+                                   $"z = {abs:F5} (cos {degrees:F5}° + j sin {degrees:F2}°)";
                 ResultLabel.IsVisible = true;
             }
             else

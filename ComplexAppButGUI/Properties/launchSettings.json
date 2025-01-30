@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ComplexAppButGUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ComplexAppButGUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -2,10 +2,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ComplexNumberApp.MainPage">
     <VerticalStackLayout Padding="20" Spacing="10">
-        <Label Text="Complex Number Calculator"
+        <Label Text="PolarForm"
                FontSize="24"
                HorizontalOptions="Center" />
 
+        <Label Text="converts complex numbers to their goniometric (polar) form"
+               FontSize="12"
+               HorizontalOptions="Center" />
+        
         <Label Text="Enter real part (x):" />
         <Entry x:Name="RealEntry" Keyboard="Numeric" />
 
@@ -17,24 +21,27 @@
                 BackgroundColor="LightBlue" />
 
         <Label x:Name="ResultLabel"
-               FontSize="18"
-               TextColor="DarkGreen"
+               FontSize="20"
+               TextColor="Green"
                IsVisible="False" />
 
         <!-- 🔹 Credits Section -->
         <Label Text="By: Zdeněk Dudek"
-               FontSize="14"
+               FontSize="5"
                TextColor="Cyan"
-               HorizontalOptions="Center" />
+               HorizontalOptions="End" 
+               VerticalOptions="End"/>
 
         <Label Text="Discord: purowo"
-               FontSize="14"
+               FontSize="5"
                TextColor="Cyan"
-               HorizontalOptions="Center" />
+               HorizontalOptions="End" 
+               VerticalOptions="End" />
 
         <Label Text="Telegram: @PurOwO"
-               FontSize="14"
+               FontSize="5"
                TextColor="Cyan"
-               HorizontalOptions="Center" />
+               HorizontalOptions="End" 
+               VerticalOptions="End" />
     </VerticalStackLayout>
 </ContentPage>

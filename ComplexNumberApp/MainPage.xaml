@@ -18,26 +18,23 @@
 
         <Label x:Name="ResultLabel"
                FontSize="18"
-               TextColor="DeepSkyBlue"
+               TextColor="DarkGreen"
                IsVisible="False" />
 
         <!-- 🔹 Credits Section -->
         <Label Text="By: Zdeněk Dudek"
                FontSize="14"
                TextColor="Cyan"
-               VerticalOptions="End"
-               HorizontalOptions="End"/>
+               HorizontalOptions="Center" />
 
         <Label Text="Discord: purowo"
                FontSize="14"
                TextColor="Cyan"
-               HorizontalOptions="End" 
-               VerticalOptions="End"/>
+               HorizontalOptions="Center" />
 
         <Label Text="Telegram: @PurOwO"
                FontSize="14"
                TextColor="Cyan"
-               HorizontalOptions="End" 
-               VerticalOptions="End"/>
+               HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>
